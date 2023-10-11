@@ -11,7 +11,7 @@
 </div>
 
 ## General Description 
-The SCE Pad is a instructional tool used during our soldering workshop series. It is based on the [Yampad](https://github.com/mattdibi/yampad) open source project. 
+The SCE Pad is a instructional tool used during our soldering workshop series.
 
 ## Table of Contents
 - Project Objective
