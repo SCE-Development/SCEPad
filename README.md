@@ -1,4 +1,4 @@
-<p align="center" style = "font-size:48px;" >The SCEPad</p>
+<p align="center" style = "font-size:48px;" >SCEPad</p>
 
 <div align="center"
 
@@ -14,16 +14,9 @@
 The SCE Pad is a instructional tool used during our soldering workshop series.
 
 ## Table of Contents
-- Project Objective
 - Bill of Materials
+- Firmware Flashing
 - Assembly Instructions 
-- Firmware 
-
-
-## Project Objective:
-- 
-
-
 
 ## Bill of Materials
 | Qty | Item                                  | Notes
@@ -39,9 +32,12 @@ The SCE Pad is a instructional tool used during our soldering workshop series.
 | 1   | SCEPad PCB                            | Available in SCE Club Room (ENG294) |
 | 5   | M3 screws                             | |
 
+## Firmware Flashing
 
-## Assembly Instructions
+Requirements
+- [QMK Toolbox](https://github.com/qmk/qmk_toolbox)
 
+After installing QMK toolbox, assuming you are using the default ProMicro controller, plug the device into your computer and you should see it show up as a new device in the console. Make sure the MCU selected is an ATmega32U4. Auto-flash is useful here but its preference. 
 
-## Firmware 
+Select your hex-file and flash your microcontroller. 
 
